@@ -2,26 +2,28 @@
 
 ## My Name
 
-Write your name.
+Barinepalle Ashish.
 
 ## What I Learned in Foundation Month
 
-Write at least three things you learned.
+i learned how binary works in computers with differnt combination of approch.
+i undestood how to communicate with computer using translator that is what programming language .
+i understand computer doest have the commonsense it require in in detail steps to understand
 
 ## Why I Selected Python
 
-Write your reason in your own words.
+i personally feel it a good start to learn
 
 ## My Career Goal
 
-Write the role you want to achieve.
+i want to see my slef as a Developer
 
 ## What I Understood Today
 
-Complete these sentences:
+Complete these sentences: in odrer to become developer we need act like one .we need to change your system enviroment 
 
-Programming means:
+Programming means:it is a set of instruction that translates the user requirement to the computers
 
-Python is:
+Python is: user friendly and comforting 
 
 In this track, I will learn:

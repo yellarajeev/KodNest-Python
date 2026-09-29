@@ -38,203 +38,248 @@
 
 # ------------------------------------------------------------
 
-# 1. text = "Python"; print(text[0:3])
+# 1. Extract the first 3 characters
 text = "Python"
 print(text[0:3])
+# Output: Pyt
 
 
-# 2. text = "Programming"; print(text[1:5])
+# 2. Extract characters from index 1 to 4
 text = "Programming"
 print(text[1:5])
+# Output: rogr
 
 
-# 3. text = "Developer"; print(text[2:6])
+# 3. Extract characters from index 2 to 5
 text = "Developer"
 print(text[2:6])
+# Output: velo
 
 
-# 4. text = "Computer"; print(text[3:7])
+# 4. Extract characters from index 3 to 6
 text = "Computer"
 print(text[3:7])
+# Output: pute
 
 
-# 5. text = "Artificial"; print(text[0:4])
+# 5. Extract the first 4 characters
 text = "Artificial"
 print(text[0:4])
+# Output: Arti
 
 
-# 6. text = "Education"; print(text[2:7])
+# 6. Extract characters from index 2 to 6
 text = "Education"
 print(text[2:7])
+# Output: ucati
 
 
-# 7. text = "JavaScript"; print(text[4:10])
+# 7. Extract characters from index 4 to 9
 text = "JavaScript"
 print(text[4:10])
+# Output: Script
 
 
-# 8. text = "DataScience"; print(text[4:10])
+# 8. Extract characters from index 4 to 9
 text = "DataScience"
 print(text[4:10])
+# Output: Scienc
 
 
-# 9. text = "PythonProgramming"; print(text[:6])
+# 9. Extract from beginning to index 5
 text = "PythonProgramming"
 print(text[:6])
+# Output: Python
 
 
-# 10. text = "PythonProgramming"; print(text[6:])
+# 10. Extract from index 6 to the end
 text = "PythonProgramming"
 print(text[6:])
+# Output: Programming
 
 
-# 11. text = "FullStackDeveloper"; print(text[:9])
+# 11. Extract from beginning to index 8
 text = "FullStackDeveloper"
 print(text[:9])
+# Output: FullStack
 
 
-# 12. text = "FullStackDeveloper"; print(text[9:])
+# 12. Extract from index 9 to the end
 text = "FullStackDeveloper"
 print(text[9:])
+# Output: Developer
 
 
-# 13. text = "MachineLearning"; print(text[:7])
+# 13. Extract from beginning to index 6
 text = "MachineLearning"
 print(text[:7])
+# Output: Machine
 
 
-# 14. text = "MachineLearning"; print(text[7:])
+# 14. Extract from index 7 to the end
 text = "MachineLearning"
 print(text[7:])
+# Output: Learning
 
 
-# 15. text = "ABCDEFGHIJ"; print(text[0:8:2])
+# 15. Take every second character
 text = "ABCDEFGHIJ"
 print(text[0:8:2])
+# Output: ACEG
 
 
-# 16. text = "ABCDEFGHIJ"; print(text[1:9:2])
+# 16. Take every second character
 text = "ABCDEFGHIJ"
 print(text[1:9:2])
+# Output: BDFH
 
 
-# 17. text = "ABCDEFGHIJKL"; print(text[0:12:3])
+# 17. Take every third character
 text = "ABCDEFGHIJKL"
 print(text[0:12:3])
+# Output: ADGJ
 
 
-# 18. text = "ABCDEFGHIJKL"; print(text[2:10:2])
+# 18. Take every second character
 text = "ABCDEFGHIJKL"
 print(text[2:10:2])
+# Output: CEGI
 
 
-# 19. text = "1234567890"; print(text[0:10:2])
+# 19. Take every second number
 text = "1234567890"
 print(text[0:10:2])
+# Output: 13579
 
 
-# 20. text = "1234567890"; print(text[1:9:2])
+# 20. Take every second number starting from index 1
 text = "1234567890"
 print(text[1:9:2])
+# Output: 2468
 
 
-# 21. text = "Programming"; print(text[0:11:3])
+# 21. Take every third character
 text = "Programming"
 print(text[0:11:3])
+# Output: Pgmn
 
 
-# 22. text = "Programming"; print(text[1:10:3])
+# 22. Take every third character starting from index 1
 text = "Programming"
 print(text[1:10:3])
+# Output: rrm
 
 
-# 23. text = "PythonProgramming"; print(text[2:14:2])
+# 23. Take every second character
 text = "PythonProgramming"
 print(text[2:14:2])
+# Output: toPorm
 
 
-# 24. text = "PythonProgramming"; print(text[1:15:3])
+# 24. Take every third character
 text = "PythonProgramming"
 print(text[1:15:3])
+# Output: yorrm
 
 
-# 25. text = "ABCDEFGHIJKLMNO"; print(text[3:13:2])
+# 25. Take every second character
 text = "ABCDEFGHIJKLMNO"
 print(text[3:13:2])
+# Output: DFHJL
 
 
-# 26. text = "ABCDEFGHIJKLMNO"; print(text[2:14:3])
+# 26. Take every third character
 text = "ABCDEFGHIJKLMNO"
 print(text[2:14:3])
+# Output: CFIL
 
 
-# 27. text = "PythonProgramming"; print(text[0:16:4])
+# 27. Predict the output
 text = "PythonProgramming"
 print(text[0:16:4])
+# Output: Poom
 
 
-# 28. text = "ABCDEFGHIJKLM"; print(text[1:12:3])
+# 28. Predict the output
 text = "ABCDEFGHIJKLM"
 print(text[1:12:3])
+# Output: BEHK
 
 
-# 29. text = "DataScienceWithPython"; print(text[4:18:2])
+# 29. Predict the output
 text = "DataScienceWithPython"
 print(text[4:18:2])
+# Output: Sineihy
 
 
-# 30. text = "FullStackDevelopment"; print(text[2:19:3])
+# 30. Predict the output
 text = "FullStackDevelopment"
 print(text[2:19:3])
+# Output: ltkvoe
 
 
-# 31. text = "Python"; print(text[1:5]); print(text[1:5:1]); print(text[1:5:2])
+# 31. Compare the following
 text = "Python"
+
 print(text[1:5])
+# Output: ytho
+
 print(text[1:5:1])
+# Output: ytho
+
 print(text[1:5:2])
+# Output: yh
 
 
-# 32. text = "Python"; print(text[4:2])
+# 32. What happens when start > stop?
 text = "Python"
 print(text[4:2])
+# Output: empty string
 
 
-# 33. text = "Python"; print(text[2:2])
+# 33. What happens when start == stop?
 text = "Python"
 print(text[2:2])
+# Output: empty string
 
 
-# 34. text = "Python"; print(text[10:20])
+# 34. What happens when indexes are outside the string?
 text = "Python"
 print(text[10:20])
+# Output: empty string
 
 
-# 35. text = "Python"; print(text[0:100])
+# 35. What happens when stop is larger than the string length?
 text = "Python"
 print(text[0:100])
+# Output: Python
 
 
-# 36. text = "ABCDEFGHIJKLM"; print(text[2:11:3])
+# 36. Predict the output
 text = "ABCDEFGHIJKLM"
 print(text[2:11:3])
+# Output: CFI
 
 
-# 37. text = "ProgrammingLanguage"; print(text[3:15:2])
+# 37. Predict the output
 text = "ProgrammingLanguage"
 print(text[3:15:2])
+# Output: gamnLn
 
 
-# 38. text = "PythonDeveloper"; print(text[1:12:3])
+# 38. Predict the output
 text = "PythonDeveloper"
 print(text[1:12:3])
+# Output: yoel
 
 
-# 39. text = "DataScience"; print(text[0:10:2])
+# 39. Predict the output
 text = "DataScience"
 print(text[0:10:2])
+# Output: DtSin
 
 
-# 40. text = "FullStackDeveloper"; print(text[4:16:2])
+# 40. Predict the output
 text = "FullStackDeveloper"
 print(text[4:16:2])
+# Output: Sakeeo

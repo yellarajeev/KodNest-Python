@@ -1,0 +1,240 @@
+# ============================================================
+
+# STRING SLICING - POSITIVE SLICING PRACTICE
+
+# ============================================================
+
+#
+
+# Syntax:
+
+# string[start:stop:step]
+
+#
+
+# Rules:
+
+# 1. start is included
+
+# 2. stop is excluded
+
+# 3. positive step moves from left to right
+
+# 4. If step is not given, default step is 1
+
+#
+
+# Try to predict the output before running each question.
+
+# ============================================================
+
+
+
+
+
+# ------------------------------------------------------------
+
+# LEVEL 1 - BASIC start:stop
+
+# ------------------------------------------------------------
+
+# 1. text = "Python"; print(text[0:3])
+text = "Python"
+print(text[0:3])
+
+
+# 2. text = "Programming"; print(text[1:5])
+text = "Programming"
+print(text[1:5])
+
+
+# 3. text = "Developer"; print(text[2:6])
+text = "Developer"
+print(text[2:6])
+
+
+# 4. text = "Computer"; print(text[3:7])
+text = "Computer"
+print(text[3:7])
+
+
+# 5. text = "Artificial"; print(text[0:4])
+text = "Artificial"
+print(text[0:4])
+
+
+# 6. text = "Education"; print(text[2:7])
+text = "Education"
+print(text[2:7])
+
+
+# 7. text = "JavaScript"; print(text[4:10])
+text = "JavaScript"
+print(text[4:10])
+
+
+# 8. text = "DataScience"; print(text[4:10])
+text = "DataScience"
+print(text[4:10])
+
+
+# 9. text = "PythonProgramming"; print(text[:6])
+text = "PythonProgramming"
+print(text[:6])
+
+
+# 10. text = "PythonProgramming"; print(text[6:])
+text = "PythonProgramming"
+print(text[6:])
+
+
+# 11. text = "FullStackDeveloper"; print(text[:9])
+text = "FullStackDeveloper"
+print(text[:9])
+
+
+# 12. text = "FullStackDeveloper"; print(text[9:])
+text = "FullStackDeveloper"
+print(text[9:])
+
+
+# 13. text = "MachineLearning"; print(text[:7])
+text = "MachineLearning"
+print(text[:7])
+
+
+# 14. text = "MachineLearning"; print(text[7:])
+text = "MachineLearning"
+print(text[7:])
+
+
+# 15. text = "ABCDEFGHIJ"; print(text[0:8:2])
+text = "ABCDEFGHIJ"
+print(text[0:8:2])
+
+
+# 16. text = "ABCDEFGHIJ"; print(text[1:9:2])
+text = "ABCDEFGHIJ"
+print(text[1:9:2])
+
+
+# 17. text = "ABCDEFGHIJKL"; print(text[0:12:3])
+text = "ABCDEFGHIJKL"
+print(text[0:12:3])
+
+
+# 18. text = "ABCDEFGHIJKL"; print(text[2:10:2])
+text = "ABCDEFGHIJKL"
+print(text[2:10:2])
+
+
+# 19. text = "1234567890"; print(text[0:10:2])
+text = "1234567890"
+print(text[0:10:2])
+
+
+# 20. text = "1234567890"; print(text[1:9:2])
+text = "1234567890"
+print(text[1:9:2])
+
+
+# 21. text = "Programming"; print(text[0:11:3])
+text = "Programming"
+print(text[0:11:3])
+
+
+# 22. text = "Programming"; print(text[1:10:3])
+text = "Programming"
+print(text[1:10:3])
+
+
+# 23. text = "PythonProgramming"; print(text[2:14:2])
+text = "PythonProgramming"
+print(text[2:14:2])
+
+
+# 24. text = "PythonProgramming"; print(text[1:15:3])
+text = "PythonProgramming"
+print(text[1:15:3])
+
+
+# 25. text = "ABCDEFGHIJKLMNO"; print(text[3:13:2])
+text = "ABCDEFGHIJKLMNO"
+print(text[3:13:2])
+
+
+# 26. text = "ABCDEFGHIJKLMNO"; print(text[2:14:3])
+text = "ABCDEFGHIJKLMNO"
+print(text[2:14:3])
+
+
+# 27. text = "PythonProgramming"; print(text[0:16:4])
+text = "PythonProgramming"
+print(text[0:16:4])
+
+
+# 28. text = "ABCDEFGHIJKLM"; print(text[1:12:3])
+text = "ABCDEFGHIJKLM"
+print(text[1:12:3])
+
+
+# 29. text = "DataScienceWithPython"; print(text[4:18:2])
+text = "DataScienceWithPython"
+print(text[4:18:2])
+
+
+# 30. text = "FullStackDevelopment"; print(text[2:19:3])
+text = "FullStackDevelopment"
+print(text[2:19:3])
+
+
+# 31. text = "Python"; print(text[1:5]); print(text[1:5:1]); print(text[1:5:2])
+text = "Python"
+print(text[1:5])
+print(text[1:5:1])
+print(text[1:5:2])
+
+
+# 32. text = "Python"; print(text[4:2])
+text = "Python"
+print(text[4:2])
+
+
+# 33. text = "Python"; print(text[2:2])
+text = "Python"
+print(text[2:2])
+
+
+# 34. text = "Python"; print(text[10:20])
+text = "Python"
+print(text[10:20])
+
+
+# 35. text = "Python"; print(text[0:100])
+text = "Python"
+print(text[0:100])
+
+
+# 36. text = "ABCDEFGHIJKLM"; print(text[2:11:3])
+text = "ABCDEFGHIJKLM"
+print(text[2:11:3])
+
+
+# 37. text = "ProgrammingLanguage"; print(text[3:15:2])
+text = "ProgrammingLanguage"
+print(text[3:15:2])
+
+
+# 38. text = "PythonDeveloper"; print(text[1:12:3])
+text = "PythonDeveloper"
+print(text[1:12:3])
+
+
+# 39. text = "DataScience"; print(text[0:10:2])
+text = "DataScience"
+print(text[0:10:2])
+
+
+# 40. text = "FullStackDeveloper"; print(text[4:16:2])
+text = "FullStackDeveloper"
+print(text[4:16:2])
